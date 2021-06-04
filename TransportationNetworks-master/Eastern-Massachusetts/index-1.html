@@ -1,0 +1,34 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Unknown </title></head><body>
+<h1 id="eastern-massachusetts-ema-network">Eastern Massachusetts (EMA) network</h1>
+<p>Note: This is a highway subnetwork extracted from the entire EMA network.</p>
+<h2 id="source-history">Source / History</h2>
+<p>Via: <a href="https://github.com/jingzbu/InverseVIsTraffic">InverseVIsTraffic</a></p>
+<h2 id="cost-function">Cost Function</h2>
+<p>An inverse VI problem, as the inverse problem to the typical traffic assignment problem, was formulated in the following publications. The travel latency cost function was assumed unknown. Based on actual traffic data, the equilibrium flows were inferred and OD demand estimated. Finally, the cost function was estimated as a polynomial function with degree 8 (see EMA_intro.pdf). The data were derived for the PM period of Apr. 2012. For testing purposes, one can also use the typical BPR cost function f(x) = 1 + 0.15x^4.</p>
+<h2 id="related-publications">Related Publications</h2>
+<p>Jing Zhang, Sepideh Pourazarm, Christos G. Cassandras, and Ioannis Ch. Paschalidis, "<strong><em>The Price of Anarchy in Transportation Networks by Estimating User Cost Functions from Actual Traffic Data</em></strong>," Proceedings of the 55th IEEE Conference on Decision and Control, pp. 789-794, December 12-14, 2016, Las Vegas, NV, USA, Invited Session Paper.</p>
+<p>Jing Zhang, Sepideh Pourazarm, Christos G. Cassandras, and Ioannis Ch. Paschalidis, "<strong><em>Data-driven Estimation of Origin-Destination Demand and User Cost Functions for the Optimization of Transportation Networks</em></strong>," The 20th World Congress of the International Federation of Automatic Control, July 9-14, 2017, Toulouse, France, accepted as Invited Session Paper. <a href="https://arxiv.org/abs/1610.09580#">arXiv:1610.09580</a></p>
+<p>Jing Zhang and Ioannis Ch. Paschalidis, "<strong><em>Data-Driven Estimation of Travel Latency Cost Functions via Inverse Optimization in Multi-Class Transportation Networks</em></strong>," Proceedings of the 56th IEEE Conference on Decision and Control, December 12-15, 2017, Melbourne, Australia, submitted. <a href="https://arxiv.org/abs/1703.04010">arXiv:1703.04010</a></p>
+<p>Jing Zhang, Sepideh Pourazarm, Christos G. Cassandras, and Ioannis Ch. Paschalidis, "<strong><em>The Price of Anarchy in Transportation Networks: Data-Driven Evaluation and Reduction Strategies</em></strong>," Proceedings of the IEEE: special issue on "Smart Cities," in preparation.</p>
+<h2 id="scenario">Scenario</h2>
+<p>PM perod of Apr. 2012; EMA highway network</p>
+<h2 id="contents">Contents</h2>
+<ul>
+<li><code>EMA_net.tntp</code> Network  </li>
+<li><code>EMA_trips.tntp</code> Demand  </li>
+<li><code>EMA_entire.png</code> Map of expanded network  </li>
+<li><code>EMA_highway.jpg</code> Map of EMA highway network  </li>
+<li><code>EMA_intro.pdf</code> Description of network and suggestion for cost function  </li>
+</ul>
+<h2 id="dimensions">Dimensions</h2>
+<p>Zones: 74<br />
+Nodes: 74<br />
+Links: 258<br />
+Trips: 65,576.37543099989  </p>
+<h2 id="units">Units</h2>
+<p>Time: hours<br />
+Distance: miles  </p>
+<h2 id="generalized-cost-weights">Generalized Cost Weights</h2>
+<p>Toll: 0<br />
+Distance: 0  </p>
+</body></html>
