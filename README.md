@@ -1,4 +1,5 @@
-# Numerical Experiments for the paper "Fast Routing under Uncertainty: Adaptive Learning in Congestion Games with Exponential Weights" 
+### Numerical Experiments of the paper 
+# "Fast Routing under Uncertainty: Adaptive Learning in Congestion Games with Exponential Weights" 
 
 ### (Currently under submission at Neurips 2021)
 
